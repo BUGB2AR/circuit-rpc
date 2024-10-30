@@ -1,0 +1,9 @@
+<servlet>
+    <servlet-name>DynamicEndpointServlet</servlet-name>
+    <servlet-class>com.circuit.rpc.infrastructure.servlet.DynamicEndpointServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>DynamicEndpointServlet</servlet-name>
+<url-pattern>/schema/*</url-pattern>
+</servlet-mapping>
